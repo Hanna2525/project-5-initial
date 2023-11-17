@@ -69,5 +69,4 @@ public class SortingUtilityTest {
 
         assertTrue(result);
     }
-
 }

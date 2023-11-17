@@ -9,9 +9,9 @@ public class SortingDriver {
 
         // Generate array of random Integers
         Integer[] arr = IntStream.generate(() -> (int) (Math.random() * 50000))
-                                 .boxed()
-                                 .limit(1000)
-                                 .toArray(Integer[]::new);
+                .boxed()
+                .limit(1000)
+                .toArray(Integer[]::new);
 
         Integer[] copy1 = copyArray(arr);
         Integer[] copy2 = copyArray(arr);
@@ -61,5 +61,4 @@ public class SortingDriver {
 
         return copy;
     }
-
 }
